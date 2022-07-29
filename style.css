@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    
+}
+#section-1{
+    height: 100vh;
+    background: url(./img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#section-2{
+    background-color: whitesmoke;
+    transform: translateY(-8rem);
+    
+
+    
+}
+#features{
+    background: linear-gradient(rgba(0, 0, 0, 0.682),rgba(0, 0, 0, 0.655)),url(/img/feature-background.jpg);
+   
+    background-size: cover;
+    background-position:center ;
+    color: whitesmoke;
+}
+#reviews .profilimg{
+    transform: translateX(-1.5rem);   
+    
+}
+#reviews img{
+    transform: translateY(-1.5rem);   
+    
+}
+#subscribeinput{
+    outline: none;
+}
+body{
+    overflow-x: hidden;
+}
+
+@media (max-width: 576px){
+    #reviews p{
+        max-width: 500px;
+        text-align: center
+    }
+    #footer .col{
+        align-items: center;
+    }
+    #subscribeinput{
+        width:1px ;
+
+    }
+}
+@media(max-width:450)
